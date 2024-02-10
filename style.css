@@ -1,0 +1,241 @@
+* *::after *::before {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+.container-fluid {
+  background-color: rgba(255, 255, 255, 0.623);
+}
+.img-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+#vision {
+  grid-column: 1/-1;
+  grid-row: 1/2;
+  position: relative;
+}
+.vision-text {
+  position: absolute;
+
+  transform: translate(-50%, -50%);
+  left: 50%;
+  bottom: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.vision-text h3 {
+  font-size: 30px;
+  font-weight: 400;
+}
+.vision-text .extra-links a {
+  text-decoration: none;
+  color: rgb(0, 183, 255);
+  font-size: 20px;
+}
+#valentines {
+  grid-column: 1/-1;
+  grid-row: 2/3;
+  position: relative;
+}
+.valentaines-text {
+  position: absolute;
+
+  transform: translate(-50%, -50%);
+  left: 50%;
+  bottom: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.valentaines-text h2 {
+  font-size: 50px;
+  margin: 10px;
+}
+.valentaines-text h3 {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 10px;
+}
+.valentaines-text .extra-links a {
+  text-decoration: none;
+  color: rgb(0, 183, 255);
+  font-size: 20px;
+}
+#iphone {
+  position: relative;
+}
+.iphone-text {
+  position: absolute;
+
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 90px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.iphone-text h2 {
+  font-size: 30px;
+  margin: 10px;
+  color: white;
+}
+.iphone-text h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 10px;
+  color: white;
+}
+.iphone-text .extra-links a {
+  text-decoration: none;
+  color: rgb(0, 183, 255);
+  font-size: 20px;
+}
+#camera {
+  position: relative;
+}
+.camera-text {
+  position: absolute;
+
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 90px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+}
+.camera-text h2 {
+  font-size: 30px;
+  margin: 10px;
+  color: rgb(0, 0, 0);
+}
+.camera-text h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 10px;
+  color: rgb(0, 0, 0);
+}
+.camera-text .extra-links a {
+  text-decoration: none;
+  color: rgb(0, 183, 255);
+  font-size: 20px;
+}
+#watch {
+  position: relative;
+}
+.watch-text {
+  position: absolute;
+
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 120px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+}
+
+.watch-text h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 10px;
+  color: rgb(255, 255, 255);
+}
+.watch-text .extra-links a {
+  text-decoration: none;
+  color: rgb(0, 183, 255);
+  font-size: 20px;
+}
+#music {
+  position: relative;
+}
+.music-text {
+  position: absolute;
+
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 120px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+}
+
+.music-text h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 10px;
+  color: rgb(255, 255, 255);
+}
+.music-text .extra-links a {
+  text-decoration: none;
+  color: rgb(0, 183, 255);
+  font-size: 20px;
+}
+#card {
+  position: relative;
+}
+.card-text {
+  position: absolute;
+
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 120px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+}
+
+.card-text h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 10px;
+  color: rgb(0, 0, 0);
+}
+.card-text .extra-links a {
+  text-decoration: none;
+  color: rgb(0, 183, 255);
+  font-size: 20px;
+}
+#trade {
+  position: relative;
+}
+.trade-text {
+  position: absolute;
+
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 120px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+}
+
+.trade-text h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 10px;
+  color: rgb(0, 0, 0);
+}
+.trade-text .extra-links a {
+  text-decoration: none;
+  color: rgb(0, 183, 255);
+  font-size: 20px;
+}
