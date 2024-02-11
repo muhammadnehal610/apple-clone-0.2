@@ -1,10 +1,38 @@
-* *::after *::before {
+* {
   margin: 0;
   padding: 0;
 }
 body {
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
     "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: rgba(0, 0, 0, 0.842);
+  height: 50px;
+  position: sticky;
+  top: 0;
+  z-index: 33;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.nav-items {
+  text-decoration: none;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .container-fluid {
@@ -13,7 +41,6 @@ body {
 .img-section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
 }
 #vision {
   grid-column: 1/-1;
@@ -113,7 +140,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-
 }
 .camera-text h2 {
   font-size: 30px;
@@ -144,7 +170,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-
 }
 
 .watch-text h3 {
@@ -171,7 +196,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-
 }
 
 .music-text h3 {
@@ -198,7 +222,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-
 }
 
 .card-text h3 {
@@ -225,7 +248,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-
 }
 
 .trade-text h3 {
@@ -238,4 +260,97 @@ body {
   text-decoration: none;
   color: rgb(0, 183, 255);
   font-size: 20px;
+}
+
+.details-cantainer {
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.774);
+}
+.details-cantainer p {
+  padding-top: 10px;
+}
+.links-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 40px;
+  line-height: 2;
+}
+.col-one {
+  width: 150px;
+}
+.col-one ul li {
+  list-style: none;
+}
+.col-one ul li a {
+  text-decoration: none;
+  color: black;
+}
+.col-two {
+  width: 150px;
+}
+.col-two ul li {
+  list-style: none;
+}
+
+.col-two ul li a {
+  text-decoration: none;
+  color: black;
+}
+.col-three {
+  width: 150px;
+}
+.col-three ul li {
+  list-style: none;
+}
+.col-three ul li a {
+  text-decoration: none;
+  color: black;
+}
+.col-four {
+  width: 150px;
+}
+.col-four ul li {
+  list-style: none;
+}
+.col-four ul li a {
+  text-decoration: none;
+  color: black;
+}
+.col-five {
+  width: 150px;
+}
+.col-five ul li {
+  list-style: none;
+}
+.col-five ul li a {
+  text-decoration: none;
+  color: black;
+}
+.last-para{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer{
+  border-top: 1px solid black;
+  display: flex;
+ margin-left: 15%;
+ margin-right: 15%;
+ gap: 20px;
+}
+.footer-content{
+  font-size: 12px;
+}
+.footer-links{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  text-decoration: none;
+}
+.footer-rigon{
+  display: flex;
+  justify-content: flex-end;
 }
